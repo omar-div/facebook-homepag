@@ -1,0 +1,214 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.body-1{
+    width: 100%;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* top part */
+.top-part{
+    width: 100%;
+    height: 10%;
+    padding: 10px 200px;
+    background-color: #4267B2;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-part a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.login-part{
+    display: flex;
+    flex-direction: row;
+}
+.login-part div{
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+}
+.login-part div label{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.login-part div a{
+    color: #6791eb;
+    font-size: 12px;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.login-part div input{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.login-part button{
+    padding: 5px 10px;
+    margin-top: 17px;
+    background-color: #3765c2f8;
+    font-size: 12px;
+    color: white;
+    border: none;
+    border: 1px solid #2a4b92;
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+
+.middle-part{
+    width: 100%;
+    height: 83%;
+    padding: 10px 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgba(184, 187, 190, 0.397);
+}
+.left-middle{
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(11, 11, 104);
+}
+.right-middle{
+    width: 50%;
+    height: 100%;
+    padding-left: 20px;
+    
+}
+input{
+    border: 1px solid rgb(138, 138, 138);
+}
+.form h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(43, 42, 42);
+}
+.form p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(43, 42, 42);
+}
+.form  a{
+    text-decoration: none;
+    color: royalblue;
+}
+.form .first-name{
+    position: relative;
+    
+    top: 15px;
+    width: 47%;
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.form .surname{
+    position: relative;
+    top: 15px;
+    left: 5%;
+    width: 47%;
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.form .mobile{
+    position: relative;
+    width: 100%;
+    top: 30px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.form .pass{
+    position: relative;
+    width: 100%;
+    top: 45px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.birthday{
+    position: relative;
+    width: 100%;
+    top: 45px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color:rgb(107, 107, 107) ;
+}
+.form select{
+    position: relative;
+    /* width: 100%; */
+    top: 50px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.radio{
+    position: relative;
+    /* width: 100%; */
+    top: 55px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.form p{
+    font-size: 10px;
+    width: 280px;
+}
+.form button{
+    width: 40%;
+    background-color: #4b8a34;
+    color: white;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #315e21;
+}
+
+.bottom-part{
+    width: 100%;
+    height: 7%;
+    padding: 10px 200px;
+    background-color: white;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 25px;
+}
+.bottom-part a{
+    color: #4267B2;
+}
+.body-2{
+    width: 100%;
+    height: 70px;
+    padding: 10px 200px;
+}
+.body-2 a{
+    color: steelblue;
+    font-size: 15px;
+    word-spacing: 25px;
+}
+.body-2 p { 
+    word-spacing: 30px;
+  }
